@@ -1,0 +1,45 @@
+/** @format */
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 20px;
+}
+
+.accordion {
+	border: 1px solid #ccc;
+	margin-bottom: 10px;
+	border-radius: 5px;
+	overflow: hidden;
+}
+
+.title-section {
+	background-color: #f9f9f9;
+	padding: 15px;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.description {
+	padding: 15px;
+	display: none;
+	background-color: #fff;
+}
+
+.expand-icon,
+.collapse-icon {
+	font-weight: bold;
+}
+
+.expand-icon {
+	display: inline;
+}
+
+.collapse-icon {
+	display: none;
+}
+
+#multiselect {
+	margin-bottom: 20px;
+}
