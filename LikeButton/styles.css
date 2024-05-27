@@ -1,0 +1,70 @@
+/** @format */
+
+body {
+	font-family: Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+	background-color: #f0f0f0;
+}
+
+.like-button-container {
+	display: flex;
+	align-items: center;
+}
+
+.like-button {
+	display: flex;
+	align-items: center;
+
+	background-color: #e8edee;
+	color: grey;
+	border: 2px solid gray;
+	padding: 10px 20px;
+	border-radius: 20px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+	transition: background-color 0.3s color 0.3s, border-color 0.3s;
+}
+.ic {
+	padding-right: 10px;
+}
+
+.like-button:hover {
+	border: 2px solid rgb(173, 39, 39);
+	color: rgb(159, 34, 34);
+}
+.like-button.clicked {
+	background-color: red;
+	border: 2px solid rgb(173, 39, 39);
+	color: white;
+}
+.like-button.loading {
+	cursor: wait;
+}
+
+#likeCount {
+	font-size: 16px;
+}
+
+.reset-button {
+	background-color: #008cba;
+	color: white;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 16px;
+	margin-right: 10px;
+	transition: background-color 0.3s;
+}
+
+.reset-button:hover {
+	background-color: #005f75;
+}
+
+#likeCount {
+	font-size: 16px;
+}
