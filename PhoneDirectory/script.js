@@ -30,8 +30,7 @@ form.addEventListener('submit', (e) => {
 		return namePattern.test(name);
 	}
 	function validateEmail(email) {
-		const emailPattern =
-			/^[a-zA-Z][a-zA-Z0-9_.-]{1,9}@[a-zA-Z]{2,20}\.[a-zA-Z]{2,10}$/;
+		const emailPattern = /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/;
 		return emailPattern.test(email);
 	}
 	function validatePhone(mobile) {
