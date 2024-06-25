@@ -1,5 +1,4 @@
 /** @format */
-
 let page = 1;
 let hasMore = true;
 let isFetching = false;

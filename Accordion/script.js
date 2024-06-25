@@ -4,7 +4,6 @@ document.addEventListener('DOMContentLoaded', function () {
 	const accordions = document.querySelectorAll('.accordion');
 	const multiselectCheckbox = document.getElementById('multiselect');
 
-	// Initialize accordion items
 	accordions.forEach((accordion, index) => {
 		const description = accordion.querySelector('.description');
 		const expandIcon = accordion.querySelector('.expand-icon');

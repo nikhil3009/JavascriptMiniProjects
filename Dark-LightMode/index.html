@@ -36,7 +36,7 @@
 			<button
 				id="togle-btn"
 				class="btn btn-primary">
-				Toggle Dark/Light
+				Dark Mode 🌑
 			</button>
 		</div>
         </body>
@@ -51,9 +51,11 @@
 				if (body.classList.contains('light')) {
 					body.classList.remove('light');
 					body.classList.add('dark');
+					toggleButton.innerHTML='Light Mode 🌞'
 				} else {
 					body.classList.remove('dark');
 					body.classList.add('light');
+					toggleButton.innerHTML='Dark Mode 🌑'
 				}
 			});
 		</script>
